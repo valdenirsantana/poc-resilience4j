@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: resilience
+  cloud:
+    discovery:
+      client:
+        composite-indicator:
+          enabled: false
+
+management:
+  health:
+    circuitbreakers:
+      enabled: true
+    RateLimiters:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: info, health, prometheus, metrics
+  endpoint:
+    health:
+      show-details: always
+
+resilience4j.circuitbreaker:
+  instances:
+    skuBreaker:
+      registerHealthIndicator: true
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 5
+      automaticTransitionFromOpenToHalfOpenEnabled: true
+      slidingWindowType: COUNT_BASED
+      minimumNumberOfCalls: 1
+      waitDurationInOpenState: 20000
+      failureRateThreshold: 50
+      eventConsumerBufferSize: 10
+  configs:
+    default:
+      registerHealthIndicator: true
+
+
+resilience4j.ratelimiter:
+  instances:
+    discountLimiter:
+      limitForPeriod: 3
+      limitRefreshPeriod: 8000
+      timeoutDuration: 0
+      registerHealthIndicator: true
+      eventConsumerBufferSize: 100
+  configs:
+    default:
+      registerHealthIndicator: true
+
+resilience4j.retry:
+  instances:
+    shippingRetry:
+      maxAttempts: 5
+      waitDuration: 2000
+      enableExponentialBackoff: true
+      exponentialBackoffMultiplier: 2
+#      retryExceptions:
+#        - org.springframework.web.client.HttpServerErrorException
+#        - java.io.IOException
+#      ignoreExceptions:
+#        - io.github.robwin.exception.BusinessException
+

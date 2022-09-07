@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.valdenirsantana.pocresilience4j.PocResilience4jApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.114 s - in br.com.valdenirsantana.pocresilience4j.PocResilience4jApplicationTests

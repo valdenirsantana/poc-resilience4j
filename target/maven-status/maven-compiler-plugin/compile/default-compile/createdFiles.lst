@@ -1,0 +1,9 @@
+br/com/valdenirsantana/pocresilience4j/controller/ShippingController.class
+br/com/valdenirsantana/pocresilience4j/controller/SkuController.class
+br/com/valdenirsantana/pocresilience4j/client/SkuClient.class
+br/com/valdenirsantana/pocresilience4j/controller/DiscountController.class
+br/com/valdenirsantana/pocresilience4j/service/DiscountService.class
+br/com/valdenirsantana/pocresilience4j/service/SkuService.class
+br/com/valdenirsantana/pocresilience4j/service/ShippingService.class
+br/com/valdenirsantana/pocresilience4j/PocResilience4jApplication.class
+br/com/valdenirsantana/pocresilience4j/client/ShippingClient.class

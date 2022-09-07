@@ -1,0 +1,9 @@
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/PocResilience4jApplication.java
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/service/SkuService.java
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/client/ShippingClient.java
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/controller/SkuController.java
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/service/ShippingService.java
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/controller/ShippingController.java
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/controller/DiscountController.java
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/service/DiscountService.java
+/Users/valdenirsantana/Documents/Java/poc-resilience4j/src/main/java/br/com/valdenirsantana/pocresilience4j/client/SkuClient.java
