@@ -7,7 +7,7 @@ Esse projeto tem como propósito testar as principais features da biblioteca Res
 ### Pré requisitos
 
 - Para rodar este projeto você precisa:
-  - Java 1
+  - Java 18
   - Maven 
   - Go
 
